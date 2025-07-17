@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:blobber}",
+            "name": "Debug blobber",
+            "program": "${workspaceFolder:blobber}/.build/debug/blobber",
+            "preLaunchTask": "swift: Build Debug blobber"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:blobber}",
+            "name": "Release blobber",
+            "program": "${workspaceFolder:blobber}/.build/release/blobber",
+            "preLaunchTask": "swift: Build Release blobber"
+        }
+    ]
+}
